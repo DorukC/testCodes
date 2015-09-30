@@ -73,28 +73,28 @@ function formattedDate(date) {
  */
 function Global_Events_OnStart(e) {
     changeLang(Device.language, true);
-    include("http://dorukcoskun.com/sia/BC.js"); //included for future BC support. Removing is not advised.
-    include("http://dorukcoskun.com/sia/CreateBlogUIObjects.js");
-    include("http://dorukcoskun.com/sia/CreateWebClient.js");
-    include("http://dorukcoskun.com/sia/DashboardPage.js");
-    include("http://dorukcoskun.com/sia/ListPage.js");
-    include("http://dorukcoskun.com/sia/ListSinglePage.js");
-    include("http://dorukcoskun.com/sia/InfoDialog.js");
-    include("http://dorukcoskun.com/sia/FormPage.js");
-    include("http://dorukcoskun.com/sia/RegisterPage.js");
-    include("http://dorukcoskun.com/sia/ProfilePage.js");
-    include("http://dorukcoskun.com/sia/InterestListPage.js");
-    include("http://dorukcoskun.com/sia/CodeReaderPage.js");
-    include("http://dorukcoskun.com/sia/CodeReaderActionPage.js");
-    include("http://dorukcoskun.com/sia/SingleMapViewPage.js");
-    include("http://dorukcoskun.com/sia/MapPage.js");
-    include("http://dorukcoskun.com/sia/MapDetailPage.js");
-    include("http://dorukcoskun.com/sia/RoutePage.js");
-    include("http://dorukcoskun.com/sia/MyNotesPage.js");
-    include("http://dorukcoskun.com/sia/MyNewNotePage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/BC.js"); //included for future BC support. Removing is not advised.
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/CreateBlogUIObjects.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/CreateWebClient.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/DashboardPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/ListPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/ListSinglePage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/InfoDialog.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/FormPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/RegisterPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/ProfilePage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/InterestListPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/CodeReaderPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/CodeReaderActionPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/SingleMapViewPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/MapPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/MapDetailPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/RoutePage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/MyNotesPage.js");
+    include("https://raw.githubusercontent.com/DorukC/testCodes/master/MyNewNotePage.js");
     //      Comment following block for navigationbar/actionbar sample. Read the JS code file for usage.
     //      Also there is a part of code block in Page1, which should be copied to every page for HeaderBar usage
-    load("http://dorukcoskun.com/sia/HeaderBar.js");
+    load("https://raw.githubusercontent.com/DorukC/testCodes/master/HeaderBar.js");
     header = new HeaderBar();
 
     // OBJECTS CREATOR CLASSES
@@ -128,7 +128,7 @@ function Global_Events_OnStart(e) {
     
     //Uncomment following block for menu sample. Read the JS code file for usage.
     /*
-    load("http://dorukcoskun.com/sia/Menu.js");
+    load("https://raw.githubusercontent.com/DorukC/testCodes/master/Menu.js");
      */
 
 }
